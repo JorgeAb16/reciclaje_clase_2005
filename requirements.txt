@@ -1,0 +1,7 @@
+OS
+tensorflow
+matplotlib
+numpy
+streamlit
+h5
+keras
