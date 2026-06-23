@@ -8,3 +8,6 @@ from PIL import Image
 st.set_page_config(page_title="Reciclaje IA-ISC",layout="centered")
 st.title("Modelo predictivo Reciclaje clase de IA-ISC-Campus Comayagua-2026")
 st.write("Suba una imagen para clasificar con el Modelo MobileNetV2 pre-entrenado")
+
+IMG_SIZE=(224,224)
+MODEL_DIR=Path("modelo_reciclaje_mobilenet")
